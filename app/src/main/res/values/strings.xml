@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Soldado</string>
+    <string name="app_objetivo">Aparenta ser débil cuando seas fuerte y fuerte cuando seas débil.</string>
+    <string name="text">modo claro</string>
+    <string name="action_settings">configuraciones</string>
+
+</resources>

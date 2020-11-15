@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuReporteGerencial">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foregroundGravity="center_horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingTop="100dp"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="230dp"
+                        android:layout_margin="10dp"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:background="@drawable/border_menu">
+
+                            <ImageView
+                                android:id="@+id/Presenteim"
+                                android:layout_width="134dp"
+                                android:background="@drawable/present"
+                                android:layout_height="134dp"></ImageView>
+
+                            <TextView
+                                android:id="@+id/Presente"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:gravity="center"
+                                android:text="Soldados Presentes"
+                                android:textColor="#FFFFFF"
+                                android:textSize="20dp"
+                                android:textStyle="bold"></TextView>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="230dp"
+                        android:layout_margin="10dp"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:background="@drawable/border_menu"
+                            android:gravity="center">
+                            <ImageView
+                                android:id="@+id/Guardiaima"
+                                android:layout_width="134dp"
+                                android:background="@drawable/guardia"
+                                android:layout_height="134dp">
+                            </ImageView>
+                            <TextView
+                                android:id="@+id/Guardia"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                android:layout_marginTop="10dp"
+                                android:textColor="#FFFFFF"
+                                android:text="Soldados en Guardia"
+                                > </TextView>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="230dp"
+                        android:layout_margin="10dp"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:background="@drawable/border_menu"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/Comisionim"
+                                android:layout_width="134dp"
+                                android:background="@drawable/commision"
+                                android:layout_height="134dp"></ImageView>
+
+                            <TextView
+                                android:id="@+id/Comision"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:gravity="center"
+                                android:text="Soldados en comision"
+                                android:textColor="#FFFFFF"
+                                android:textSize="20dp"
+                                android:textStyle="bold"></TextView>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="230dp"
+                        android:layout_margin="10dp"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:background="@drawable/border_menu"
+                            android:gravity="center">
+                            <ImageView
+                                android:id="@+id/Hospitalim"
+                                android:layout_width="134dp"
+                                android:background="@drawable/hospital"
+                                android:layout_height="134dp">
+                            </ImageView>
+                            <TextView
+                                android:id="@+id/Hospital"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                android:layout_marginTop="10dp"
+                                android:textColor="#FFFFFF"
+                                android:text="Soldados en Hospital"
+                                > </TextView>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="230dp"
+                        android:layout_margin="10dp"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:background="@drawable/border_menu"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/Permisoim"
+                                android:layout_width="134dp"
+                                android:background="@drawable/permiss"
+                                android:layout_height="134dp"></ImageView>
+
+                            <TextView
+                                android:id="@+id/Permiso"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:gravity="center"
+                                android:text="Soldados con Permiso"
+                                android:textColor="#FFFFFF"
+                                android:textSize="20dp"
+                                android:textStyle="bold"></TextView>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="230dp"
+                        android:layout_margin="10dp"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:background="@drawable/border_menu"
+                            android:gravity="center">
+                            <ImageView
+                                android:id="@+id/Terrenoim"
+                                android:layout_width="134dp"
+                                android:background="@drawable/ic_baseline_terrain_24"
+                                android:layout_height="134dp">
+                            </ImageView>
+                            <TextView
+                                android:id="@+id/Terreno"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:textSize="20dp"
+                                android:textStyle="bold"
+                                android:layout_marginTop="10dp"
+                                android:textColor="#FFFFFF"
+                                android:text="Soldados en Terreno"
+                                > </TextView>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

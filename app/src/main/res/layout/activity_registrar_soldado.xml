@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrarSoldado">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center"
+                android:text="REGISTRAR SOLDADO"
+                android:textColor="#00b8d4"
+                android:textStyle="bold"
+                android:textSize="30dp">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center"
+                android:text="Llenar los datos del soldado"
+                android:textColor="#00b8d4"
+                android:textStyle="bold|italic"
+                android:textSize="25dp">
+            </TextView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:text="Cedula*"
+                    android:textColor="#00b8d4"
+                    android:textStyle="bold"
+                    android:textSize="20dp">
+                </TextView>
+                <EditText
+                    android:id="@+id/cedularegistro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:hint="Ingrese la cedula"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/border_editext"
+                    android:textStyle="italic">
+
+                </EditText>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:text="Nombres*"
+                    android:textColor="#00b8d4"
+                    android:textStyle="bold"
+                    android:textSize="20dp">
+                </TextView>
+                <EditText
+                    android:id="@+id/nombreregistro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:hint="Ingrese el nombre"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/border_editext"
+                    android:textStyle="italic">
+
+                </EditText>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:text="Apellidos*"
+                    android:textColor="#00b8d4"
+                    android:textStyle="bold"
+                    android:textSize="20dp">
+                </TextView>
+                <EditText
+                    android:id="@+id/apellidosregistro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:hint="Ingrese los apellidos"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/border_editext"
+                    android:textStyle="italic">
+
+                </EditText>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:text="Fecha de nacimiento*"
+                    android:textColor="#00b8d4"
+                    android:textStyle="bold"
+                    android:textSize="20dp">
+                </TextView>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:screenOrientation="portrait">
+                    <Button
+                        android:id="@+id/btnCa"
+                        android:layout_width="91dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="1"
+                        android:background="@mipmap/calendar3"
+                        android:onClick="onClick" />
+
+
+
+                    <EditText
+                        android:id="@+id/txtCa"
+                        android:layout_width="222dp"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/border_editext"
+                        android:textStyle="italic">
+                    </EditText>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:text="Cargo*"
+                    android:textColor="#00b8d4"
+                    android:textStyle="bold"
+                    android:textSize="20dp">
+                </TextView>
+                <Spinner
+                    android:id="@+id/cargoregistro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:hint="Ingrese la cedula de identidad"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/border_editext"
+                    android:textStyle="italic">
+                </Spinner>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:text="Numero de Telefono*"
+                    android:textColor="#00b8d4"
+                    android:textStyle="bold"
+                    android:textSize="20dp">
+                </TextView>
+                <EditText
+                    android:id="@+id/celularregistro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Ingrese el numero de telefono"
+                    android:layout_marginBottom="10dp"
+                    android:padding="5dp"
+                    android:background="@drawable/border_editext"
+                    android:textStyle="italic">
+
+                </EditText>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:text="Fecha*"
+                    android:textColor="#00b8d4"
+                    android:textStyle="bold"
+                    android:textSize="20dp">
+                </TextView>
+
+                <!---<LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                <EditText
+                    android:id="@+id/fecharegistro"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:padding="5dp"
+                    android:background="@drawable/border_editext"
+                    android:textStyle="italic">
+                </EditText>
+
+                    <Button
+                        android:id="@+id/btn_fecha"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:padding="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="Fecha"
+                        android:textColor="#FFFFFF"
+                        android:background="@drawable/borderbutton"
+
+                        android:textStyle="italic">
+                    </Button>
+
+
+                </LinearLayout>
+                -->
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:text="Grado*"
+                    android:textColor="#00b8d4"
+                    android:textStyle="bold"
+                    android:textSize="20dp">
+                </TextView>
+                <Spinner
+                    android:id="@+id/spinergradoregistro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:background="@drawable/border_editext"
+                    android:textStyle="italic">
+                </Spinner>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:text="Batallon*"
+                    android:textColor="#00b8d4"
+                    android:textStyle="bold"
+                    android:textSize="20dp">
+                </TextView>
+                <Spinner
+                    android:id="@+id/spinerbatallonregistro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:background="@drawable/border_editext"
+                    android:textStyle="italic">
+                </Spinner>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:text="Compañia*"
+                    android:textColor="#00b8d4"
+                    android:textStyle="bold"
+                    android:textSize="20dp">
+                </TextView>
+                <Spinner
+                    android:id="@+id/spinercompaniaregistro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:background="@drawable/border_editext"
+                    android:textStyle="italic">
+                </Spinner>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:text="Estado*"
+                    android:textColor="#00b8d4"
+                    android:textStyle="bold"
+                    android:textSize="20dp">
+                </TextView>
+                <Spinner
+                    android:id="@+id/spinerestadoregistro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:background="@drawable/border_editext"
+                    android:textStyle="italic">
+                </Spinner>
+
+
+                <Button
+                    android:id="@+id/btn_registrar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:text="REGISTRAR SOLDADO"
+                    android:background="#00B8D4"
+                    >
+                </Button>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

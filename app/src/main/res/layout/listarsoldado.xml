@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            android:background="@drawable/border_editext"
+            android:paddingBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#00b8d4"
+                    android:text="Cedula:">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/cedulalis"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:textColor="#0a0a0a"
+                    android:text="name">
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#00b8d4"
+                    android:text="Nombres:">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/nombreslis"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:textColor="#0a0a0a"
+                    android:text="nombres">
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#00b8d4"
+                    android:text="Apellidos">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/apellidoslis"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:textColor="#0a0a0a"
+                    android:text="apellidos">
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#00b8d4"
+                    android:text="Cargo:">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/cargolis"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:textColor="#0a0a0a"
+                    android:text="cargo">
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#00b8d4"
+                    android:text="Telefono">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/telefonolis"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:textColor="#0a0a0a"
+                    android:text="celular">
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#00b8d4"
+                    android:text="Fecha:">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/fechalis"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:textColor="#0a0a0a"
+                    android:text="fecha">
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#00b8d4"
+                    android:text="Grado:">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/gradolis"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:textColor="#0a0a0a"
+                    android:text="grado">
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#00b8d4"
+                    android:text="Batallón:">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/batallonlis"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:textColor="#0a0a0a"
+                    android:text="batallon">
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#00b8d4"
+                    android:text="Compañía:">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/companialis"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:textSize="15dp"
+                    android:textStyle="italic"
+                    android:textColor="#0a0a0a"
+                    android:text="compania">
+                </TextView>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
